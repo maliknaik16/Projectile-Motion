@@ -26,7 +26,7 @@ namespace ProjectileMotion
       return 2f * ProjectileMotion.AscentTime(initialVelocity, angle, acceleration);
     }
 
-    // Vertical distance travelled by the object along the projectile.
+    // Vertical distance travelled by the object along the projectile
     public static float VerticalDistance(float initialVelocity, float angle, float acceleration) {
       return initialVelocity * initialVelocity * Mathf.Sin(angle) * Mathf.Sin(angle) / (2f * acceleration);
     }
